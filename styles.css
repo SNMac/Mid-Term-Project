@@ -1,33 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Ysabeau&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f3f3f3;
-    margin: 0;
-    padding: 0;
-  }
+  font-family: 'Ysabeau', 'Gowun Batang', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+    
+}
 
-  .container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
-  }
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 2.5rem;
+}
 
-  h1 {
-    text-align: center;
-    color: #333;
-    font-size: 2.5rem;
-  }
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #444;
+}
 
-  p {
-    font-size: 1.2rem;
-    line-height: 1.5;
-    color: #444;
-  }
+.profile {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  border: 5px solid #333;
+}
 
-  img {
-    display: block;
-    margin: 0 auto;
-    width: 200px;
-    height: auto;
-    border-radius: 50%;
-    border: 5px solid #333;
-  }
+.running_img {
+  width: 250px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.insta_container {
+  background-color: pink;
+  width: 130px;
+  height: 50px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.insta_container img {
+  width: 30px;
+  height: auto;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.insta_text {
+  position: absolute;
+  top: 13px;
+  left: 50px;
+}
