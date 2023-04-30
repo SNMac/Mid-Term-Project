@@ -43,6 +43,7 @@ p {
   width: 275px;
   height: auto;
   border-radius: 15px;
+  padding-right: 10px;
 }
 
 .pet_container {
@@ -66,6 +67,8 @@ p {
   border-radius: 10px;
   text-align: center;
   position: relative;
+  margin-left: 30px;
+
 }
 
 .insta_container img {
