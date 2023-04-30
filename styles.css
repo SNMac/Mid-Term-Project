@@ -23,6 +23,7 @@ p {
   font-size: 1.2rem;
   line-height: 1.5;
   color: #444;
+  text-indent: 30px;
 }
 
 .profile {
@@ -34,19 +35,27 @@ p {
   border: 5px solid #333;
 }
 
-.running_img {
+.running_container {
+  margin-left: 30px;
+}
+
+.running_container img {
   width: 275px;
   height: auto;
   border-radius: 15px;
 }
 
-.pet_img {
+.pet_container {
+  margin-left: 30px;
+}
+
+.pet_container img {
   width: 600px;
   height: auto;
   border-radius: 15px;
 }
 
-.pet_video {
+.pet_container iframe {
   padding-top: 10px;
 }
 
