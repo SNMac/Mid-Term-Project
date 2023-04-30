@@ -35,9 +35,19 @@ p {
 }
 
 .running_img {
-  width: 250px;
+  width: 275px;
   height: auto;
   border-radius: 15px;
+}
+
+.pet_img {
+  width: 600px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.pet_video {
+  padding-top: 10px;
 }
 
 .insta_container {
